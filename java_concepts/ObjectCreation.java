@@ -1,7 +1,6 @@
 package java_concepts;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -15,7 +14,7 @@ import java.lang.reflect.InvocationTargetException;
  * 1. new keyword
  * 2. newInstance method
  * 3. clone
- * 5. deserialization
+ * 4. deserialization
  * 
  */
 
@@ -69,7 +68,6 @@ public class ObjectCreation {
         FileInputStream fileInputStream = new FileInputStream("obj.txt");
         ObjectInputStream ObjectInputStream = new ObjectInputStream(fileInputStream);
         Info readObject = (Info) ObjectInputStream.readObject();
-
         System.out.println(readObject.data);
 
     }
