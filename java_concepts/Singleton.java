@@ -1,6 +1,5 @@
 package java_concepts;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -50,7 +49,7 @@ public class Singleton {
     public static void main(String[] args) throws ExecutionException {
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-    
+
         List<Callable<SingletonB>> tasks = new ArrayList<>();
         tasks.add(() -> SingletonB.getInstance());
         tasks.add(() -> SingletonB.getInstance());
