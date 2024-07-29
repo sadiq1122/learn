@@ -1,0 +1,21 @@
+ROUND 1 - Discussion round with Ashish Mishra (senior / architect)
+
+1. Existing project volume.
+2. How to prevent/handle DDOS attack?
+3. Singleton thread safe implementation
+4. Interface vs abstract classes. When to use which?
+5. replace vs replaceAll
+6. Why String are immutable?
+7. volatile vs transient
+8. Binary Search
+9. Stacks and Queues
+10. Clustered indexing
+11. ICIDs in postgres
+12. Unique Pair , how to return err msg on duplicate request ?
+   (name, age) -> my sol - redis , required solution -> db integrity error (use primary key)
+13. DTO vs POJO
+14. SQL query ->
+    Name of empoyee with highest salary within each department. Note -> if 2 employees have same salary
+    within department, need to return 2 names.
+15. Kafka working, partitions, offsets, how retension and storage happens.
+16. Resume questions- settlement api, templatise, etc
