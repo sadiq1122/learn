@@ -20,3 +20,11 @@ Collection
 python manage.py retry_make_payment_call --payment_id 41093443
 
 from providers.tasks import single_fetch_provider_emi_schedule
+
+
+
+# streams 25 - DONE
+# memory model  10 -- DONE
+# gc  10 - DONE 
+# threads - print even and odd 10 - DONE
+# HashMap and PriorityQueue 20 - DONE
