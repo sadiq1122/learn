@@ -20,3 +20,5 @@ ROUND 1 - Discussion round with (senior / architect)
 15. What is IOC? Whose control is inverted?  
 16. Kafka working, partitions, offsets, how retension and storage happens.
 17. Resume questions- settlement api, templatise, etc
+
+Verdict = passed
