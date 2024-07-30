@@ -17,5 +17,6 @@ ROUND 1 - Discussion round with (senior / architect)
 14. SQL query ->
     Name of empoyee with highest salary within each department. Note -> if 2 employees have same salary
     within department, need to return 2 names.
-15. Kafka working, partitions, offsets, how retension and storage happens.
-16. Resume questions- settlement api, templatise, etc
+15. What is IOC? Whose control is inverted?  
+16. Kafka working, partitions, offsets, how retension and storage happens.
+17. Resume questions- settlement api, templatise, etc
