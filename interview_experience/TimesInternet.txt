@@ -1,4 +1,4 @@
-ROUND 1 - Discussion round with Ashish Mishra (senior / architect)
+ROUND 1 - Discussion round with (senior / architect)
 
 1. Existing project volume.
 2. How to prevent/handle DDOS attack?
