@@ -28,3 +28,27 @@ from providers.tasks import single_fetch_provider_emi_schedule
 # gc  10 - DONE 
 # threads - print even and odd 10 - DONE
 # HashMap and PriorityQueue 20 - DONE
+
+
+
+Second round preparation
+
+1. Spring Boot annotations
+2. JPA
+3. Transactions
+4. Bean scopes
+5. Multi-threading in detail, Executors, etc
+6. Collections framework
+7. Java 8 features - Streams, Lambdas
+8. RESTful Web Services
+9. Testing in Spring Boot
+10. Spring Security
+11. Actuator
+12. Configure Redis/Kafka
+13. Postgres vs NoSQL DBs (which to use when)
+14. Docker
+15. Performance Tuning
+16. BST questions
+17. Rotated sorted array questions
+18. Java backend top 100 questions
+19. CI/CD
