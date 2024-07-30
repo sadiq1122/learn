@@ -18,7 +18,8 @@ ROUND 1 - Discussion round with (senior / architect)
     Name of empoyee with highest salary within each department. Note -> if 2 employees have same salary
     within department, need to return 2 names.
 15. What is IOC? Whose control is inverted?  
-16. Kafka working, partitions, offsets, how retension and storage happens.
-17. Resume questions- settlement api, templatise, etc
+16. How to change the embedded tomcat server in spring boot application?
+17. Kafka working, partitions, offsets, how retension and storage happens.
+18. Resume questions- settlement api, templatise, etc
 
 Verdict = passed
