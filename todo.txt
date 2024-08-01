@@ -86,3 +86,10 @@ total hits / month = 10 billion
 
 
 # cars24
+
+
+plan
+multi threading
+Actuators
+top 100 questions in the morning
+System Design 
