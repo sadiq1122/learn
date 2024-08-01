@@ -33,22 +33,56 @@ from providers.tasks import single_fetch_provider_emi_schedule
 
 Second round preparation
 
-1. Spring Boot annotations
+1. Spring Boot annotations - DONE
 2. JPA
 3. Transactions
-4. Bean scopes
+4. Bean scopes - DONE 
 5. Multi-threading in detail, Executors, etc
 6. Collections framework
 7. Java 8 features - Streams, Lambdas
+8. Java backend top 100 questions
 8. RESTful Web Services
-9. Testing in Spring Boot
 10. Spring Security
 11. Actuator
 12. Configure Redis/Kafka
 13. Postgres vs NoSQL DBs (which to use when)
 14. Docker
 15. Performance Tuning
-16. BST questions
-17. Rotated sorted array questions
-18. Java backend top 100 questions
 19. CI/CD
+20. System Design concepts [4 hrs]
+21. Design Pattern
+
+
+Learnt
+1. Profiles
+2. Interceptors
+3. Conditional Annotations
+4. Annotions spring boot 
+@SpringBootApplication
+@RestController vs @Controller
+@Component @Autowired @Repository @Service
+@Required
+@Primary
+@Scope
+@ComponentScan
+@RequestMapping
+@PathVariable
+@RequestBody
+@ResponseBody
+
+
+
+1 billiton users 
+total hits / month = 10 billion 
+120 billion * 10 
+1200 billion MBs
+
+
+12 * 10 15 
+12 Penta byte
+
+
+
+
+
+# cars24

@@ -14,9 +14,9 @@ class Solution {
                     result = Math.min(result, cost[i]);
                 } else {
                     long temp = Integer.MAX_VALUE;
-                    while(true){
-                    char tempSource = original[i];
-                    
+                    while (true) {
+                        char tempSource = original[i];
+
                     }
 
                 }
@@ -28,7 +28,6 @@ class Solution {
 
     public long minimumCost(String source, String target, char[] original, char[] changed, int[] cost) {
         long minCost = 0;
-
 
         for (int i = 0; i < source.length(); i++) {
             char sourceChar = source.charAt(i);

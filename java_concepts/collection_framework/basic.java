@@ -1,5 +1,6 @@
 package java_concepts.collection_framework;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -92,6 +93,10 @@ class Basic {
         List<Student> copy = List.copyOf(list);
         System.out.println(copy.get(0).hashCode());
         System.out.println(list.get(0).hashCode());
+
+        BigDecimal decimal = new BigDecimal("0.0001");
+        BigDecimal decimal2 = new BigDecimal("0.0001");
+        System.out.println(decimal.add(decimal2));
 
 
     }
