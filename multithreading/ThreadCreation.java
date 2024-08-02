@@ -8,11 +8,12 @@ public class ThreadCreation {
         TimeThread thread2 = new TimeThread();
         thread2.start();
         runner.start();
-        // thread2.join();
-        // runner.join();
-        System.out.println(
-            "main thread endeed"
-        );
+
+        // joining makes the main thead to not finish untill t2 and t1 have completed
+        // the exuecution.
+        thread2.join();
+        runner.join();
+        System.out.println("main thread endeed");
     }
 
 }
