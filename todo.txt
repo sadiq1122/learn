@@ -89,7 +89,10 @@ total hits / month = 10 billion
 
 
 plan
-multi threading
-Actuators
+multi threading - done 
+Actuators - done
 top 100 questions in the morning
 System Design 
+txns 
+jwt
+design patterns

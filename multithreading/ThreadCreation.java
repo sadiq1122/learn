@@ -1,5 +1,7 @@
 package multithreading;
 
+import java.util.concurrent.CompletableFuture;
+
 public class ThreadCreation {
     public static void main(String[] args) throws InterruptedException {
         MyThread thread = new MyThread();
@@ -14,7 +16,15 @@ public class ThreadCreation {
         thread2.join();
         runner.join();
         System.out.println("main thread endeed");
-    }
+
+        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {
+            int a = 1 + 2;
+            return "test" + a;
+        });
+
+        future.thenAccept(x -> System.out.println(x)).thenRun(()-> System.out.println("do work")));
+
+    };
 
 }
 
